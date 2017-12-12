@@ -15,6 +15,7 @@ export default new Router({
         content:Content,
         footer:Bottom
       }
+
     }
   ]
 })

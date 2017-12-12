@@ -1,26 +1,42 @@
 <template>
   <div class="containr">
    <ul id="list">
-     <li class="nav"><span>音乐</span></li>
-     <li class="nav"><span>视频</span></li>
+     <li class="nav" @click="showmusics"><span>音乐</span></li>
+     <li class="nav" @click="showvideos"><span>视频</span></li>
      <li class="nav"><span>电台</span></li>
    </ul>
-    <router-view-banner name="banner"/>
-    <router-view-nav name="banner"/>
-    <router-view-introduce name="introduce"/>
+    <router-view-music v-show="showmusic"></router-view-music>
+    <router-view-video v-show="showvideo"></router-view-video>
   </div>
 </template>
-
 <script>
-  import banner from './IndexBanner'
-  import nav from './IndexNav'
-  import introduce from './IndexIntroduce'
+  import music from './IndexMusic'
+  import video from './IndexVedio'
   export default {
     name: "content",
+    data:function () {
+      return {
+        showmusic:true,
+        showvideo:false
+      }
+    },
+    props:{
+
+    },
     components:{
-      "router-view-banner":banner,
-      "router-view-nav":nav,
-      "router-view-introduce":introduce
+      "router-view-music":music,
+      "router-view-video":video,
+    },
+
+    methods:{
+      showmusics:function () {
+        this.showmusic=true;
+        this.showvideo=false;
+      },
+      showvideos:function () {
+        this.showmusic=false;
+        this.showvideo=true;
+      }
     }
   }
 </script>

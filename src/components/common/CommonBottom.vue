@@ -43,7 +43,7 @@ export default {
 
 }
 
-#list>.nav{
+#list>.nav:nth-child(1){
   width: 100%;
   line-height: 50px;
   color: white;
@@ -52,8 +52,56 @@ export default {
   background-position: center 10%;
 
 }
-  #list>.nav:hover{
+  #list>.nav:nth-child(1):hover{
     background: url("../../assets/music-hover.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+    color: rgb(231, 45, 44);
+
+  }
+  #list>.nav:nth-child(2){
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    background: url("../../assets/mymusic.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+
+  }
+  #list>.nav:nth-child(2):hover{
+    background: url("../../assets/mymusic-hover.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+    color: rgb(231, 45, 44);
+
+  }
+  #list>.nav:nth-child(3){
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    background: url("../../assets/parent.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+
+  }
+  #list>.nav:nth-child(3):hover{
+    background: url("../../assets/parent-hover.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+    color: rgb(231, 45, 44);
+
+  }
+  #list>.nav:nth-child(4){
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    background: url("../../assets/account.png")no-repeat;
+    background-size: auto 55%;
+    background-position: center 10%;
+
+  }
+  #list>.nav:nth-child(4):hover{
+    background: url("../../assets/account-hover.png")no-repeat;
     background-size: auto 55%;
     background-position: center 10%;
     color: rgb(231, 45, 44);

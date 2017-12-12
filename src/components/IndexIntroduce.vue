@@ -5,15 +5,13 @@
 </div>
   <div>
     <ul id="list">
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐使人退步音乐啊</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
-      <li class="nav"><img src="../assets/banner.jpg" width="100%" height="100%"/><span>音乐</span></li>
+      <li class="nav"><img src="../assets/fengmian/11.png" width="100%" height="100%"/><span>华语速爆新歌</span></li>
+      <li class="nav"><img src="../assets/fengmian/14.png" width="100%" height="100%"/><span>听觉盛宴｜凄美纯音</span></li>
+      <li class="nav"><img src="../assets/fengmian/15.png" width="100%" height="100%"/><span>一秒陷入日式柔情</span></li>
+      <li class="nav"><img src="../assets/fengmian/17.png" width="100%" height="100%"/><span>一秒陷入日式柔情</span></li>
+      <li class="nav"><img src="../assets/fengmian/19.png" width="100%" height="100%"/><span>华语速爆新歌</span></li>
+      <li class="nav"><img src="../assets/fengmian/31.png" width="100%" height="100%"/><span>听觉盛宴</span></li>
+
     </ul>
   </div>
 </div>
@@ -54,12 +52,11 @@
   list-style: none;
   display: flex;
   flex-flow: wrap;
-  height: 32vw;
   box-sizing: border-box;
   justify-content: space-between;
   width: 100%;
   background-color: white;
-  height: auto;
+  height:auto;
 }
 #list li{
   width: 32%;
