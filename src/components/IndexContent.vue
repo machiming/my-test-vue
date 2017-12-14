@@ -13,7 +13,7 @@
   import music from './IndexMusic'
   import video from './IndexVedio'
   export default {
-    name: "content",
+    name: "Partcontent",
     data:function () {
       return {
         showmusic:true,

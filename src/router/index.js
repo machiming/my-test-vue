@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Bottom from '@/components/common/CommonBottom'
-import Content from '@/components/IndexContent'
-import Header from '@/components/common/CommonHeader'
+import PartBottom from '@/components/common/CommonBottom'
+import PartContent from '@/components/IndexContent'
+import PartHeader from '@/components/common/CommonHeader'
 Vue.use(Router)
 
 export default new Router({
@@ -11,9 +11,9 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       components: {
-        header:Header,
-        content:Content,
-        footer:Bottom
+        PartHeader:PartHeader,
+        PartContent:PartContent,
+        PartBottom:PartBottom
       }
 
     }

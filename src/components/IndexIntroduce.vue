@@ -5,12 +5,12 @@
 </div>
   <div>
     <ul id="list">
-      <li class="nav"><img src="../assets/fengmian/11.png" width="100%" height="100%"/><span>华语速爆新歌</span></li>
-      <li class="nav"><img src="../assets/fengmian/14.png" width="100%" height="100%"/><span>听觉盛宴｜凄美纯音</span></li>
-      <li class="nav"><img src="../assets/fengmian/15.png" width="100%" height="100%"/><span>一秒陷入日式柔情</span></li>
-      <li class="nav"><img src="../assets/fengmian/17.png" width="100%" height="100%"/><span>一秒陷入日式柔情</span></li>
-      <li class="nav"><img src="../assets/fengmian/19.png" width="100%" height="100%"/><span>华语速爆新歌</span></li>
-      <li class="nav"><img src="../assets/fengmian/31.png" width="100%" height="100%"/><span>听觉盛宴</span></li>
+      <li class="nav"><img src="../assets/fengmian/11.png" width="100%" /><span>华语速爆新歌</span></li>
+      <li class="nav"><img src="../assets/fengmian/14.png" width="100%" /><span>听觉盛宴｜凄美纯音</span></li>
+      <li class="nav"><img src="../assets/fengmian/15.png" width="100%" /><span>听觉盛宴｜一秒陷入日式柔情</span></li>
+      <li class="nav"><img src="../assets/fengmian/17.png" width="100%" /><span>一秒陷入日式柔情</span></li>
+      <li class="nav"><img src="../assets/fengmian/19.png" width="100%" /><span>华语速爆新歌</span></li>
+      <li class="nav"><img src="../assets/fengmian/31.png" width="100%" /><span>听觉盛宴</span></li>
 
     </ul>
   </div>
@@ -60,8 +60,8 @@
 }
 #list li{
   width: 32%;
-  height: 32vw;
-  padding-bottom: 10vw;
+  height: auto;
+
 }
 #list li span{
   height: 1em;

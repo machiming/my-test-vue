@@ -12,7 +12,7 @@
   import introduce from './IndexIntroduce'
   import music from './IndexMusic'
   export default {
-    name: "content",
+    name: "Partcontent",
     components:{
       "router-view-banner":banner,
       "router-view-nav":nav,

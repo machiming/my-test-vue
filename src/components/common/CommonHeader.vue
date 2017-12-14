@@ -1,12 +1,25 @@
 <template>
-    <div class="search">
-        <input type="text" class="search-box" placeholder="搜索音乐、视频、歌词、电台">
+    <div class="search" >
+        <input type="text" @focus="search" @blur="removeSearch" v-bind:class="{ active: isActive }" class="search-box" placeholder="搜索音乐、视频、歌词、电台">
     </div>
 </template>
 html:5
 <script>
     export default {
-        name: "header"
+        name: "PartHeader",
+        data:function(){
+          return{
+            isActive:false
+          }
+        },
+      methods:{
+        search:function () {
+          this.isActive=true
+        },
+        removeSearch:function () {
+          this.isActive=!this.isActive
+       }
+      }
     }
 </script>
 
@@ -19,8 +32,9 @@ html:5
   height: 50px;
   background: rgb(231, 45, 44);
 }
+
   .search-box{
-    width: 70%;
+    width: 75%;
     height: 36px;
     margin: 7px auto;
     box-sizing: border-box;
@@ -31,6 +45,13 @@ html:5
     text-indent: 1em;
     font-size: 16px;
   }
+.active{
+  width: 85%;
+  float: right;
+  margin-right: 12.5%;
+  margin-left: 2.5%;
+  transition: all 200ms;
+}
 input::-webkit-input-placeholder{
      color: rgba(0, 0, 0, 0.65);
    }
